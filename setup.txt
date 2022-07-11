@@ -19,3 +19,13 @@ https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/add-externa
 
 
 admin@az400earnhardtoutlook.onmicrosoft.com
+
+
+====================================================
+https://azuredevopsdemogenerator.azurewebsites.net
+https://azuredevopsdemogenerator.azurewebsites.net/environment/createproject
+
+https://www.azuredevopslabs.com/labs/vstsextend/tomcat/
+
+
+https://dev.azure.com/az400-earnhardt-admin-hack/hackShuttle
