@@ -1,0 +1,323 @@
+=========================================================================================
+Create Resource group
+=========================================================================================
+PS /home/az400> az group create --name az400-rg1 --location eastus
+{
+  "id": "/subscriptions/4a68a5b3-66f6-4f05-adc7-8ea054b06be9/resourceGroups/az400-rg1",
+  "location": "eastus",
+  "managedBy": null,
+  "name": "az400-rg1",
+  "properties": {
+    "provisioningState": "Succeeded"
+  },
+  "tags": null,
+  "type": "Microsoft.Resources/resourceGroups"
+}
+
+=========================================================================================
+Create App Service Plan
+=========================================================================================
+PS /home/az400> az appservice plan create --resource-group az400-rg1 --name az400-app-serv-plan --sku S1                          
+Resource provider 'Microsoft.Web' used by this operation is not registered. We are registering for you.
+Registration succeeded.
+{
+  "elasticScaleEnabled": false,
+  "extendedLocation": null,
+  "freeOfferExpirationTime": null,
+  "geoRegion": "East US",
+  "hostingEnvironmentProfile": null,
+  "hyperV": false,
+  "id": "/subscriptions/4a68a5b3-66f6-4f05-adc7-8ea054b06be9/resourceGroups/az400-rg1/providers/Microsoft.Web/serverfarms/az400-app-serv-plan",
+  "isSpot": false,
+  "isXenon": false,
+  "kind": "app",
+  "kubeEnvironmentProfile": null,
+  "location": "eastus",
+  "maximumElasticWorkerCount": 1,
+  "maximumNumberOfWorkers": 0,
+  "name": "az400-app-serv-plan",
+  "numberOfSites": 0,
+  "perSiteScaling": false,
+  "provisioningState": "Succeeded",
+  "reserved": false,
+  "resourceGroup": "az400-rg1",
+  "sku": {
+    "capabilities": null,
+    "capacity": 1,
+    "family": "S",
+    "locations": null,
+    "name": "S1",
+    "size": "S1",
+    "skuCapacity": null,
+    "tier": "Standard"
+  },
+  "spotExpirationTime": null,
+  "status": "Ready",
+  "subscription": "4a68a5b3-66f6-4f05-adc7-8ea054b06be9",
+  "tags": null,
+  "targetWorkerCount": 0,
+  "targetWorkerSizeId": 0,
+  "type": "Microsoft.Web/serverfarms",
+  "workerTierName": null,
+  "zoneRedundant": false
+}
+
+=========================================================================================
+Create Web App
+=========================================================================================
+PS /home/az400> az webapp create --resource-group az400-rg1 --plan az400-app-serv-plan --name az400-earnhardt-webApp  
+{
+  "availabilityState": "Normal",
+  "clientAffinityEnabled": true,
+  "clientCertEnabled": false,
+  "clientCertExclusionPaths": null,
+  "clientCertMode": "Required",
+  "cloningInfo": null,
+  "containerSize": 0,
+  "customDomainVerificationId": "750F70DED7BD3230B9D8E18D318CB1526B0B3FAF978806532EBAC0A50FDEC4CB",
+  "dailyMemoryTimeQuota": 0,
+  "defaultHostName": "az400-earnhardt-webapp.azurewebsites.net",
+  "enabled": true,
+  "enabledHostNames": [
+    "az400-earnhardt-webapp.azurewebsites.net",
+    "az400-earnhardt-webapp.scm.azurewebsites.net"
+  ],
+  "extendedLocation": null,
+  "ftpPublishingUrl": "ftp://waws-prod-blu-345.ftp.azurewebsites.windows.net/site/wwwroot",
+  "hostNameSslStates": [
+    {
+      "hostType": "Standard",
+      "ipBasedSslResult": null,
+      "ipBasedSslState": "NotConfigured",
+      "name": "az400-earnhardt-webapp.azurewebsites.net",
+      "sslState": "Disabled",
+      "thumbprint": null,
+      "toUpdate": null,
+      "toUpdateIpBasedSsl": null,
+      "virtualIp": null
+    },
+    {
+      "hostType": "Repository",
+      "ipBasedSslResult": null,
+      "ipBasedSslState": "NotConfigured",
+      "name": "az400-earnhardt-webapp.scm.azurewebsites.net",
+      "sslState": "Disabled",
+      "thumbprint": null,
+      "toUpdate": null,
+      "toUpdateIpBasedSsl": null,
+      "virtualIp": null
+    }
+  ],
+  "hostNames": [
+    "az400-earnhardt-webapp.azurewebsites.net"
+  ],
+  "hostNamesDisabled": false,
+  "hostingEnvironmentProfile": null,
+  "httpsOnly": false,
+  "hyperV": false,
+  "id": "/subscriptions/4a68a5b3-66f6-4f05-adc7-8ea054b06be9/resourceGroups/az400-rg1/providers/Microsoft.Web/sites/az400-earnhardt-webApp",
+  "identity": null,
+  "inProgressOperationId": null,
+  "isDefaultContainer": null,
+  "isXenon": false,
+  "keyVaultReferenceIdentity": "SystemAssigned",
+  "kind": "app",
+  "lastModifiedTimeUtc": "2022-07-12T01:29:01.283333",
+  "location": "East US",
+  "maxNumberOfWorkers": null,
+  "name": "az400-earnhardt-webApp",
+  "outboundIpAddresses": "20.81.58.141,20.81.58.190,20.81.58.208,20.81.58.248,20.81.59.85,20.81.59.178,20.119.0.15",
+  "possibleOutboundIpAddresses": "20.81.58.141,20.81.58.190,20.81.58.208,20.81.58.248,20.81.59.85,20.81.59.178,20.81.59.238,20.81.60.155,20.81.60.253,20.81.61.205,20.81.61.229,20.81.61.246,20.81.62.146,20.81.62.181,20.81.63.81,20.81.63.144,20.81.63.147,20.81.63.194,20.81.63.209,20.102.16.12,20.102.16.25,20.102.16.131,20.102.16.248,20.102.17.3,20.102.17.80,20.102.17.111,20.102.17.114,20.102.17.158,20.102.17.185,20.102.17.209,20.119.0.15",
+  "redundancyMode": "None",
+  "repositorySiteName": "az400-earnhardt-webApp",
+  "reserved": false,
+  "resourceGroup": "az400-rg1",
+  "scmSiteAlsoStopped": false,
+  "serverFarmId": "/subscriptions/4a68a5b3-66f6-4f05-adc7-8ea054b06be9/resourceGroups/az400-rg1/providers/Microsoft.Web/serverfarms/az400-app-serv-plan",
+  "siteConfig": {
+    "acrUseManagedIdentityCreds": false,
+    "acrUserManagedIdentityId": null,
+    "alwaysOn": false,
+    "antivirusScanEnabled": null,
+    "apiDefinition": null,
+    "apiManagementConfig": null,
+    "appCommandLine": null,
+    "appSettings": null,
+    "autoHealEnabled": null,
+    "autoHealRules": null,
+    "autoSwapSlotName": null,
+    "azureMonitorLogCategories": null,
+    "azureStorageAccounts": null,
+    "connectionStrings": null,
+    "cors": null,
+    "customAppPoolIdentityAdminState": null,
+    "customAppPoolIdentityTenantState": null,
+    "defaultDocuments": null,
+    "detailedErrorLoggingEnabled": null,
+    "documentRoot": null,
+    "experiments": null,
+    "fileChangeAuditEnabled": null,
+    "ftpsState": null,
+    "functionAppScaleLimit": 0,
+    "functionsRuntimeScaleMonitoringEnabled": null,
+    "handlerMappings": null,
+    "healthCheckPath": null,
+    "http20Enabled": false,
+    "http20ProxyFlag": null,
+    "httpLoggingEnabled": null,
+    "ipSecurityRestrictions": [
+      {
+        "action": "Allow",
+        "description": "Allow all access",
+        "headers": null,
+        "ipAddress": "Any",
+        "name": "Allow all",
+        "priority": 1,
+        "subnetMask": null,
+        "subnetTrafficTag": null,
+        "tag": null,
+        "vnetSubnetResourceId": null,
+        "vnetTrafficTag": null
+      }
+    ],
+    "javaContainer": null,
+    "javaContainerVersion": null,
+    "javaVersion": null,
+    "keyVaultReferenceIdentity": null,
+    "limits": null,
+    "linuxFxVersion": "",
+    "loadBalancing": null,
+    "localMySqlEnabled": null,
+    "logsDirectorySizeLimit": null,
+    "machineKey": null,
+    "managedPipelineMode": null,
+    "managedServiceIdentityId": null,
+    "metadata": null,
+    "minTlsCipherSuite": null,
+    "minTlsVersion": null,
+    "minimumElasticInstanceCount": 0,
+    "netFrameworkVersion": null,
+    "nodeVersion": null,
+    "numberOfWorkers": 1,
+    "phpVersion": null,
+    "powerShellVersion": null,
+    "preWarmedInstanceCount": null,
+    "publicNetworkAccess": null,
+    "publishingPassword": null,
+    "publishingUsername": null,
+    "push": null,
+    "pythonVersion": null,
+    "remoteDebuggingEnabled": null,
+    "remoteDebuggingVersion": null,
+    "requestTracingEnabled": null,
+    "requestTracingExpirationTime": null,
+    "routingRules": null,
+    "runtimeADUser": null,
+    "runtimeADUserPassword": null,
+    "scmIpSecurityRestrictions": [
+      {
+        "action": "Allow",
+        "description": "Allow all access",
+        "headers": null,
+        "ipAddress": "Any",
+        "name": "Allow all",
+        "priority": 1,
+        "subnetMask": null,
+        "subnetTrafficTag": null,
+        "tag": null,
+        "vnetSubnetResourceId": null,
+        "vnetTrafficTag": null
+      }
+    ],
+    "scmIpSecurityRestrictionsUseMain": null,
+    "scmMinTlsVersion": null,
+    "scmType": null,
+    "sitePort": null,
+    "storageType": null,
+    "supportedTlsCipherSuites": null,
+    "tracingOptions": null,
+    "use32BitWorkerProcess": null,
+    "virtualApplications": null,
+    "vnetName": null,
+    "vnetPrivatePortsCount": null,
+    "vnetRouteAllEnabled": null,
+    "webSocketsEnabled": null,
+    "websiteTimeZone": null,
+    "winAuthAdminState": null,
+    "winAuthTenantState": null,
+    "windowsFxVersion": null,
+    "xManagedServiceIdentityId": null
+  },
+  "slotSwapStatus": null,
+  "state": "Running",
+  "storageAccountRequired": false,
+  "suspendedTill": null,
+  "tags": null,
+  "targetSwapSlot": null,
+  "trafficManagerHostNames": null,
+  "type": "Microsoft.Web/sites",
+  "usageState": "Normal",
+  "virtualNetworkSubnetId": null
+}
+=========================================================================================
+Create mySQL Database
+=========================================================================================
+PS /home/az400> az mysql server create --resource-group az400-rg1 --name az400-earnhardt-mySQL --admin-user az400earnhardtmysql --admin-password Pa55w.rd1234 --sku-name GP_Gen5_2 
+Checking the existence of the resource group 'az400-rg1'...
+Resource group 'az400-rg1' exists ? : True 
+Creating mysql Server 'az400-earnhardt-mysql' in group 'az400-rg1'...
+Your server 'az400-earnhardt-mysql' is using sku 'GP_Gen5_2' (Paid Tier). Please refer to https://aka.ms/mysql-pricing  for pricing details
+(TokenTooLong) The login that starts with 'az400earnhardtmy' is too long. Maximum length is 16.
+Code: TokenTooLong
+Message: The login that starts with 'az400earnhardtmy' is too long. Maximum length is 16.
+******************************************
+** TRY AGAIN WITH SHORTER NAME (MAX 16) **
+******************************************
+PS /home/az400> az mysql server create --resource-group az400-rg1 --name az400earnhardt --admin-user az400earnhardt --admin-password Pa55w.rd1234 --sku-name GP_Gen5_2         Checking the existence of the resource group 'az400-rg1'...
+Resource group 'az400-rg1' exists ? : True 
+Creating mysql Server 'az400earnhardt' in group 'az400-rg1'...
+Your server 'az400earnhardt' is using sku 'GP_Gen5_2' (Paid Tier). Please refer to https://aka.ms/mysql-pricing  for pricing details
+Make a note of your password. If you forget, you would have to reset your password with 'az mysql server update -n az400earnhardt -g az400-rg1 -p <new-password>'.
+Creating mysql database 'defaultdb'...
+{
+  "additionalProperties": {},
+  "administratorLogin": "az400earnhardt",
+  "byokEnforcement": "Disabled",
+  "connectionString": "mysql defaultdb --host az400earnhardt.mysql.database.azure.com --user az400earnhardt@az400earnhardt --password=Pa55w.rd1234",
+  "databaseName": "defaultdb",
+  "earliestRestoreDate": "2022-07-12T02:00:15.720000+00:00",
+  "fullyQualifiedDomainName": "az400earnhardt.mysql.database.azure.com",
+  "id": "/subscriptions/4a68a5b3-66f6-4f05-adc7-8ea054b06be9/resourceGroups/az400-rg1/providers/Microsoft.DBforMySQL/servers/az400earnhardt",
+  "identity": null,
+  "infrastructureEncryption": "Disabled",
+  "location": "eastus",
+  "masterServerId": "",
+  "minimalTlsVersion": "TLSEnforcementDisabled",
+  "name": "az400earnhardt",
+  "password": "Pa55w.rd1234",
+  "privateEndpointConnections": [],
+  "publicNetworkAccess": "Enabled",
+  "replicaCapacity": 5,
+  "replicationRole": "None",
+  "resourceGroup": "az400-rg1",
+  "sku": {
+    "additionalProperties": {},
+    "capacity": 2,
+    "family": "Gen5",
+    "name": "GP_Gen5_2",
+    "size": null,
+    "tier": "GeneralPurpose"
+  },
+  "sslEnforcement": "Enabled",
+  "storageProfile": {
+    "additionalProperties": {},
+    "backupRetentionDays": 7,
+    "geoRedundantBackup": "Disabled",
+    "storageAutogrow": "Enabled",
+    "storageMb": 5120
+  },
+  "tags": null,
+  "type": "Microsoft.DBforMySQL/servers",
+  "userVisibleState": "Ready",
+  "version": "5.7"
+}
