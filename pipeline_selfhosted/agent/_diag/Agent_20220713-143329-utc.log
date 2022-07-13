@@ -1,0 +1,251 @@
+[2022-07-13 14:33:29Z INFO AgentProcess] Agent package win-x64.
+[2022-07-13 14:33:29Z INFO AgentProcess] Running on Windows (X64).
+[2022-07-13 14:33:29Z INFO AgentProcess] RuntimeInformation: Microsoft Windows 10.0.19041.
+[2022-07-13 14:33:29Z INFO AgentProcess] Version: 2.204.0
+[2022-07-13 14:33:29Z INFO AgentProcess] Commit: 166abe8635999375bb798213066ccafbdd7e3875
+[2022-07-13 14:33:29Z INFO AgentProcess] Culture: en-US
+[2022-07-13 14:33:29Z INFO AgentProcess] UI Culture: en-US
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Bin': 'c:\lab\az400\dotnet\agent\bin'
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Root': 'c:\lab\az400\dotnet\agent'
+[2022-07-13 14:33:29Z INFO AgentProcess] Validating directory permissions for: 'c:\lab\az400\dotnet\agent'
+[2022-07-13 14:33:29Z INFO PowerShellExeUtil] Generation: '1'
+[2022-07-13 14:33:29Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2022-07-13 14:33:29Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2022-07-13 14:33:29Z INFO PowerShellExeUtil] Generation: '3'
+[2022-07-13 14:33:29Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.19041.1'
+[2022-07-13 14:33:29Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2022-07-13 14:33:29Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework', value name 'InstallRoot': 'C:\Windows\Microsoft.NET\Framework64\'
+[2022-07-13 14:33:29Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP' contains sub keys:
+[2022-07-13 14:33:29Z INFO AgentProcess]  'CDF'
+[2022-07-13 14:33:29Z INFO AgentProcess]  'v4'
+[2022-07-13 14:33:29Z INFO AgentProcess]  'v4.0'
+[2022-07-13 14:33:29Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name 'Version' is null.
+[2022-07-13 14:33:29Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name '' is null.
+[2022-07-13 14:33:29Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP\v4' contains sub keys:
+[2022-07-13 14:33:29Z INFO AgentProcess]  'Client'
+[2022-07-13 14:33:29Z INFO AgentProcess]  'Full'
+[2022-07-13 14:33:29Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version': '4.8.04084'
+[2022-07-13 14:33:29Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install': '1'
+[2022-07-13 14:33:29Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2022-07-13 14:33:29Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release': '528372'
+[2022-07-13 14:33:29Z INFO AgentProcess] Type is System.Int32
+[2022-07-13 14:33:29Z INFO AgentProcess] Interpreted version: 4.7.0
+[2022-07-13 14:33:29Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version': '4.8.04084'
+[2022-07-13 14:33:29Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install': '1'
+[2022-07-13 14:33:29Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2022-07-13 14:33:29Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release': '528372'
+[2022-07-13 14:33:29Z INFO AgentProcess] Type is System.Int32
+[2022-07-13 14:33:29Z INFO AgentProcess] Interpreted version: 4.7.0
+[2022-07-13 14:33:29Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version' is null.
+[2022-07-13 14:33:29Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name '': 'deprecated'
+[2022-07-13 14:33:29Z INFO AgentProcess] Found 2 versions:
+[2022-07-13 14:33:29Z INFO AgentProcess]  4.7.0
+[2022-07-13 14:33:29Z INFO AgentProcess]  4.7.0
+[2022-07-13 14:33:29Z INFO AgentProcess] Testing for min NET Framework version: '4.5'
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Bin': 'c:\lab\az400\dotnet\agent\bin'
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Root': 'c:\lab\az400\dotnet\agent'
+[2022-07-13 14:33:29Z INFO HostContext] Setting up value for origin: Configure.Password
+[2022-07-13 14:33:29Z INFO HostContext] Value is empty.
+[2022-07-13 14:33:29Z INFO HostContext] Setting up value for origin: Configure.ProxyPassword
+[2022-07-13 14:33:29Z INFO HostContext] Value is empty.
+[2022-07-13 14:33:29Z INFO HostContext] Setting up value for origin: Configure.SslClientCert
+[2022-07-13 14:33:29Z INFO HostContext] Value is empty.
+[2022-07-13 14:33:29Z INFO HostContext] Setting up value for origin: Configure.Token
+[2022-07-13 14:33:29Z INFO HostContext] Value is empty.
+[2022-07-13 14:33:29Z INFO HostContext] Setting up value for origin: Configure.WindowsLogonPassword
+[2022-07-13 14:33:29Z INFO HostContext] Value is empty.
+[2022-07-13 14:33:29Z INFO CommandSettings] Configure {
+  "AcceptTeeEula": false,
+  "AddDeploymentGroupTags": false,
+  "AddEnvironmentVirtualMachineResourceTags": false,
+  "AddMachineGroupTags": false,
+  "AlwaysExtractTask": false,
+  "Agent": null,
+  "CollectionName": null,
+  "DeploymentGroup": false,
+  "DeploymentGroupName": null,
+  "DeploymentGroupTags": null,
+  "DeploymentPool": false,
+  "DeploymentPoolName": null,
+  "EnvironmentVMResource": false,
+  "EnvironmentName": null,
+  "EnvironmentVMResourceTags": null,
+  "GitUseSChannel": false,
+  "DisableLogUploads": false,
+  "MachineGroup": false,
+  "MachineGroupName": null,
+  "MachineGroupTags": null,
+  "MonitorSocketAddress": null,
+  "NotificationPipeName": null,
+  "NotificationSocketAddress": null,
+  "NoRestart": false,
+  "OverwriteAutoLogon": false,
+  "Pool": null,
+  "ProjectName": null,
+  "ProxyPassword": null,
+  "ProxyUserName": null,
+  "ProxyUrl": null,
+  "Replace": false,
+  "RunAsAutoLogon": false,
+  "RunAsService": false,
+  "RunOnce": false,
+  "PreventServiceStart": false,
+  "SslCACert": null,
+  "SslClientCert": null,
+  "SslClientCertArchive": null,
+  "SslClientCertKey": null,
+  "SslClientCertPassword": null,
+  "SslSkipCertValidation": false,
+  "Url": null,
+  "WindowsLogonAccount": null,
+  "WindowsLogonPassword": null,
+  "Work": null,
+  "Auth": null,
+  "LaunchBrowser": false,
+  "Password": null,
+  "Token": null,
+  "Unattended": false,
+  "UserName": null,
+  "Help": true,
+  "Version": false
+}
+[2022-07-13 14:33:29Z INFO AgentProcess] Arguments parsed
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Bin': 'c:\lab\az400\dotnet\agent\bin'
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Root': 'c:\lab\az400\dotnet\agent'
+[2022-07-13 14:33:29Z INFO HostContext] Well known config file 'Proxy': 'c:\lab\az400\dotnet\agent\.proxy'
+[2022-07-13 14:33:29Z INFO VstsAgentWebProxy] No proxy setting found.
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Bin': 'c:\lab\az400\dotnet\agent\bin'
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Root': 'c:\lab\az400\dotnet\agent'
+[2022-07-13 14:33:29Z INFO HostContext] Well known config file 'Certificates': 'c:\lab\az400\dotnet\agent\.certificates'
+[2022-07-13 14:33:29Z INFO AgentCertificateManager] No certificate setting found.
+[2022-07-13 14:33:29Z INFO Agent] ExecuteCommand
+[2022-07-13 14:33:29Z INFO ConfigurationStore] currentAssemblyLocation: c:\lab\az400\dotnet\agent\bin\Agent.Listener.dll
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Bin': 'c:\lab\az400\dotnet\agent\bin'
+[2022-07-13 14:33:29Z INFO ConfigurationStore] binPath: c:\lab\az400\dotnet\agent\bin
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Bin': 'c:\lab\az400\dotnet\agent\bin'
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Root': 'c:\lab\az400\dotnet\agent'
+[2022-07-13 14:33:29Z INFO ConfigurationStore] RootFolder: c:\lab\az400\dotnet\agent
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Bin': 'c:\lab\az400\dotnet\agent\bin'
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Root': 'c:\lab\az400\dotnet\agent'
+[2022-07-13 14:33:29Z INFO HostContext] Well known config file 'Agent': 'c:\lab\az400\dotnet\agent\.agent'
+[2022-07-13 14:33:29Z INFO ConfigurationStore] ConfigFilePath: c:\lab\az400\dotnet\agent\.agent
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Bin': 'c:\lab\az400\dotnet\agent\bin'
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Root': 'c:\lab\az400\dotnet\agent'
+[2022-07-13 14:33:29Z INFO HostContext] Well known config file 'Credentials': 'c:\lab\az400\dotnet\agent\.credentials'
+[2022-07-13 14:33:29Z INFO ConfigurationStore] CredFilePath: c:\lab\az400\dotnet\agent\.credentials
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Bin': 'c:\lab\az400\dotnet\agent\bin'
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Root': 'c:\lab\az400\dotnet\agent'
+[2022-07-13 14:33:29Z INFO HostContext] Well known config file 'Service': 'c:\lab\az400\dotnet\agent\.service'
+[2022-07-13 14:33:29Z INFO ConfigurationStore] ServiceConfigFilePath: c:\lab\az400\dotnet\agent\.service
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Bin': 'c:\lab\az400\dotnet\agent\bin'
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Root': 'c:\lab\az400\dotnet\agent'
+[2022-07-13 14:33:29Z INFO HostContext] Well known config file 'Autologon': 'c:\lab\az400\dotnet\agent\.autologon'
+[2022-07-13 14:33:29Z INFO ConfigurationStore] AutoLogonSettingsFilePath: c:\lab\az400\dotnet\agent\.autologon
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Bin': 'c:\lab\az400\dotnet\agent\bin'
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Root': 'c:\lab\az400\dotnet\agent'
+[2022-07-13 14:33:29Z INFO HostContext] Well known config file 'Options': 'c:\lab\az400\dotnet\agent\.options'
+[2022-07-13 14:33:29Z INFO ConfigurationStore] RuntimeOptionsFilePath: c:\lab\az400\dotnet\agent\.options
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Bin': 'c:\lab\az400\dotnet\agent\bin'
+[2022-07-13 14:33:29Z INFO HostContext] Well known directory 'Root': 'c:\lab\az400\dotnet\agent'
+[2022-07-13 14:33:29Z INFO HostContext] Well known config file 'SetupInfo': 'c:\lab\az400\dotnet\agent\.setup_info'
+[2022-07-13 14:33:29Z INFO ConfigurationStore] SetupInfoFilePath: c:\lab\az400\dotnet\agent\.setup_info
+[2022-07-13 14:33:29Z INFO Terminal] WRITE LINE: .\config.cmd [options]
+
+For unconfigure help, see: .\config.cmd remove --help
+
+Common options:
+ --url <url>                       URL of the server. For example: https://myaccount.visualstudio.com or
+                                   http://onprem:8080/tfs
+ --auth <type>                     Authentication type. Valid values are:
+                                    pat        (Personal access token)
+                                    negotiate  (Kerberos or NTLM)
+                                    alt        (Basic authentication)
+                                    integrated (Windows default credentials)
+ --token <token>                   Used with --auth pat. Personal access token.
+ --userName <userName>             Used with --auth negotiate or --auth alt. Specify the Windows user
+                                   name in the format: domain\userName or userName@domain.com
+ --password <password>             Used with --auth negotiate or --auth alt.
+ --unattended                      Unattended configuration. You will not be prompted. All answers must
+                                   be supplied to the command line.
+ --version                         Prints the agent version
+ --commit                          Prints the agent commit
+ --help                            Prints the help
+
+Configure options:
+ --pool <pool>                     Pool name for the agent to join
+ --agent <agent>                   Agent name
+ --replace                         Replace the agent in a pool. If another agent is listening by that
+                                   name, it will start failing with a conflict.
+ --work <workDirectory>            Work directory where job data is stored. Defaults to _work under the
+                                   root of the agent directory. The work directory is owned by a given
+                                   agent and should not share between multiple agents.
+ --acceptTeeEula                   macOS and Linux only. Accept the TEE end user license agreement.
+ --gitUseSChannel                  Windows only. Tell Git to use Windows' native cert store.
+ --alwaysExtractTask               Perform an unzip for tasks for each pipeline step.
+
+Startup options (Windows only):
+ --runAsService                    Configure the agent to run as a Windows service. Requires
+                                   administrator permission.
+ --preventServiceStart             Configure Windows service to not run immediately after configuration.
+ --runAsAutoLogon                  Configure auto logon and run the agent on startup. Requires
+                                   administrator permission.
+ --windowsLogonAccount <account>   Used with --runAsService or --runAsAutoLogon. Specify the Windows user
+                                   name in the format: domain\userName or userName@domain.com
+ --windowsLogonPassword <password> Used with --runAsService or --runAsAutoLogon. Windows logon password.
+ --overwriteAutoLogon              Used with --runAsAutoLogon. Overwrite any existing auto logon on the
+                                   machine.
+ --noRestart                       Used with --runAsAutoLogon. Do not restart after configuration
+                                   completes.
+
+Deployment group options:
+ --deploymentGroup                 Configure the agent as a deployment group agent.
+ --projectName <name>              Used with --deploymentGroup. Team project name.
+ --addDeploymentGroupTags          Used with --deploymentGroup. Specify to add deployment group tags.
+ --deploymentGroupName <name>      Used with --deploymentGroup. Deployment group for the agent to join.
+ --deploymentGroupTags <tags>      Used with --addDeploymentGroupTags. A comma separated list of tags for
+                                   the deployment group agent. For example "web, db".
+
+Environment variables:
+Any command line argument can be specified as an environment variable. Use the format
+VSTS_AGENT_INPUT_<ARGUMENT_NAME>. For example: VSTS_AGENT_INPUT_PASSWORD
+
+Unattended configuration examples:
+
+VSTS authentication
+.\config.cmd --unattended --url https://myaccount.visualstudio.com --auth pat --token myToken --pool default --agent myAgent --acceptTeeEula
+
+On-premises TFS with integrated authentication (Windows only)
+.\config.cmd --unattended --url http://mylocaltfsserver:8080/tfs --auth integrated --pool default --agent myAgent
+
+On-premises TFS with negotiate authentication
+.\config.cmd --unattended --url http://mylocaltfsserver:8080/tfs --auth negotiate --userName myDomain\myUserName --password myPassword --pool default --agent myAgent --acceptTeeEula
+
+Replace existing agent with the same agent name
+.\config.cmd --unattended --url https://myaccount.visualstudio.com --auth pat --token myToken --pool default --agent myAgent --replace --acceptTeeEula
+
+Specify the agent work directory (Windows)
+.\config.cmd --unattended --url https://myaccount.visualstudio.com --auth pat --token myToken --pool default --agent myAgent --work D:\agent_work
+
+Specify the agent work directory (macOS and Linux)
+./config.sh --unattended  --url https://myaccount.visualstudio.com --auth pat --token myToken --pool default --agent myAgent --work usr/local/agent_work
+
+Run as a Windows service that logs on as NetworkService (Windows only)
+.\config.cmd --unattended --url https://myaccount.visualstudio.com --auth pat --token myToken --pool default --agent myAgent --runAsService
+
+Run as a Windows service that logs on as a domain account (Windows only)
+.\config.cmd --unattended --url https://myaccount.visualstudio.com --auth pat --token myToken --pool default --agent myAgent --runAsService --windowsLogonAccount myDomain\myUserName --windowsLogonPassword myPassword
+
+Run as a Windows service that logs on as a domain account (Windows only) and doesn't start service immediately
+.\config.cmd --unattended --url https://myaccount.visualstudio.com --auth pat --token myToken --pool default --agent myAgent --runAsService --preventServiceStart --windowsLogonAccount myDomain\myUserName --windowsLogonPassword myPassword 
+
+Run as an auto logon agent (Windows only)
+.\config.cmd --unattended --url https://myaccount.visualstudio.com --auth pat --token myToken --pool default --agent myAgent --runAsAutoLogon --windowsLogonAccount myDomain\myUserName --windowsLogonPassword myPassword
+
+Run as an auto logon agent and do not restart after configuration (Windows only)
+.\config.cmd --unattended --url https://myaccount.visualstudio.com --auth pat --token myToken --pool default --agent myAgent --runAsAutoLogon --windowsLogonAccount myDomain\myUserName --windowsLogonPassword myPassword --noRestart
+
+Deployment group agent run as Windows service that logs on as Local System (Windows only)
+.\config.cmd --unattended --deploymentGroup --url https://myaccount.visualstudio.com --auth pat --token myToken --projectName myProject --deploymentGroupName myDeploymentGroup --agent myAgent --addDeploymentGroupTags --deploymentGroupTags "web, db" --runAsService --windowsLogonAccount "NT AUTHORITY\SYSTEM"
+
+Deployment group agent with tags
+.\config.cmd --unattended --deploymentGroup --url https://myaccount.visualstudio.com --auth pat --token myToken --projectName myProject --deploymentGroupName myDeploymentGroup --agent myAgent --addDeploymentGroupTags --deploymentGroupTags "web, db" --runAsService --windowsLogonAccount "NT AUTHORITY\SYSTEM" --acceptTeeEula

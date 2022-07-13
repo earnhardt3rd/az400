@@ -1,0 +1,176 @@
+[2022-07-12 21:10:35Z INFO AgentProcess] Agent package win-x64.
+[2022-07-12 21:10:35Z INFO AgentProcess] Running on Windows (X64).
+[2022-07-12 21:10:35Z INFO AgentProcess] RuntimeInformation: Microsoft Windows 10.0.19041.
+[2022-07-12 21:10:35Z INFO AgentProcess] Version: 2.204.0
+[2022-07-12 21:10:35Z INFO AgentProcess] Commit: 166abe8635999375bb798213066ccafbdd7e3875
+[2022-07-12 21:10:35Z INFO AgentProcess] Culture: en-US
+[2022-07-12 21:10:35Z INFO AgentProcess] UI Culture: en-US
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Bin': 'C:\lab\az400\dotnet\agent\bin'
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Root': 'C:\lab\az400\dotnet\agent'
+[2022-07-12 21:10:35Z INFO AgentProcess] Validating directory permissions for: 'C:\lab\az400\dotnet\agent'
+[2022-07-12 21:10:35Z INFO PowerShellExeUtil] Generation: '1'
+[2022-07-12 21:10:35Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2022-07-12 21:10:35Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2022-07-12 21:10:35Z INFO PowerShellExeUtil] Generation: '3'
+[2022-07-12 21:10:35Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.19041.1'
+[2022-07-12 21:10:35Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2022-07-12 21:10:35Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework', value name 'InstallRoot': 'C:\Windows\Microsoft.NET\Framework64\'
+[2022-07-12 21:10:35Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP' contains sub keys:
+[2022-07-12 21:10:35Z INFO AgentProcess]  'CDF'
+[2022-07-12 21:10:35Z INFO AgentProcess]  'v4'
+[2022-07-12 21:10:35Z INFO AgentProcess]  'v4.0'
+[2022-07-12 21:10:35Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name 'Version' is null.
+[2022-07-12 21:10:35Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name '' is null.
+[2022-07-12 21:10:35Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP\v4' contains sub keys:
+[2022-07-12 21:10:35Z INFO AgentProcess]  'Client'
+[2022-07-12 21:10:35Z INFO AgentProcess]  'Full'
+[2022-07-12 21:10:35Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version': '4.8.04084'
+[2022-07-12 21:10:35Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install': '1'
+[2022-07-12 21:10:35Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2022-07-12 21:10:35Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release': '528372'
+[2022-07-12 21:10:35Z INFO AgentProcess] Type is System.Int32
+[2022-07-12 21:10:35Z INFO AgentProcess] Interpreted version: 4.7.0
+[2022-07-12 21:10:35Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version': '4.8.04084'
+[2022-07-12 21:10:35Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install': '1'
+[2022-07-12 21:10:35Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2022-07-12 21:10:35Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release': '528372'
+[2022-07-12 21:10:35Z INFO AgentProcess] Type is System.Int32
+[2022-07-12 21:10:35Z INFO AgentProcess] Interpreted version: 4.7.0
+[2022-07-12 21:10:35Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version' is null.
+[2022-07-12 21:10:35Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name '': 'deprecated'
+[2022-07-12 21:10:35Z INFO AgentProcess] Found 2 versions:
+[2022-07-12 21:10:35Z INFO AgentProcess]  4.7.0
+[2022-07-12 21:10:35Z INFO AgentProcess]  4.7.0
+[2022-07-12 21:10:35Z INFO AgentProcess] Testing for min NET Framework version: '4.5'
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Bin': 'C:\lab\az400\dotnet\agent\bin'
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Root': 'C:\lab\az400\dotnet\agent'
+[2022-07-12 21:10:35Z INFO HostContext] Setting up value for origin: Remove.Password
+[2022-07-12 21:10:35Z INFO HostContext] Value is empty.
+[2022-07-12 21:10:35Z INFO HostContext] Setting up value for origin: Remove.Token
+[2022-07-12 21:10:35Z INFO HostContext] Value is empty.
+[2022-07-12 21:10:35Z INFO CommandSettings] Remove {
+  "Auth": null,
+  "LaunchBrowser": false,
+  "Password": null,
+  "Token": null,
+  "Unattended": false,
+  "UserName": null,
+  "Help": false,
+  "Version": false
+}
+[2022-07-12 21:10:35Z INFO AgentProcess] Arguments parsed
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Bin': 'C:\lab\az400\dotnet\agent\bin'
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Root': 'C:\lab\az400\dotnet\agent'
+[2022-07-12 21:10:35Z INFO HostContext] Well known config file 'Proxy': 'C:\lab\az400\dotnet\agent\.proxy'
+[2022-07-12 21:10:35Z INFO VstsAgentWebProxy] No proxy setting found.
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Bin': 'C:\lab\az400\dotnet\agent\bin'
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Root': 'C:\lab\az400\dotnet\agent'
+[2022-07-12 21:10:35Z INFO HostContext] Well known config file 'Certificates': 'C:\lab\az400\dotnet\agent\.certificates'
+[2022-07-12 21:10:35Z INFO AgentCertificateManager] No certificate setting found.
+[2022-07-12 21:10:35Z INFO Agent] ExecuteCommand
+[2022-07-12 21:10:35Z INFO ConfigurationStore] currentAssemblyLocation: C:\lab\az400\dotnet\agent\bin\Agent.Listener.dll
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Bin': 'C:\lab\az400\dotnet\agent\bin'
+[2022-07-12 21:10:35Z INFO ConfigurationStore] binPath: C:\lab\az400\dotnet\agent\bin
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Bin': 'C:\lab\az400\dotnet\agent\bin'
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Root': 'C:\lab\az400\dotnet\agent'
+[2022-07-12 21:10:35Z INFO ConfigurationStore] RootFolder: C:\lab\az400\dotnet\agent
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Bin': 'C:\lab\az400\dotnet\agent\bin'
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Root': 'C:\lab\az400\dotnet\agent'
+[2022-07-12 21:10:35Z INFO HostContext] Well known config file 'Agent': 'C:\lab\az400\dotnet\agent\.agent'
+[2022-07-12 21:10:35Z INFO ConfigurationStore] ConfigFilePath: C:\lab\az400\dotnet\agent\.agent
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Bin': 'C:\lab\az400\dotnet\agent\bin'
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Root': 'C:\lab\az400\dotnet\agent'
+[2022-07-12 21:10:35Z INFO HostContext] Well known config file 'Credentials': 'C:\lab\az400\dotnet\agent\.credentials'
+[2022-07-12 21:10:35Z INFO ConfigurationStore] CredFilePath: C:\lab\az400\dotnet\agent\.credentials
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Bin': 'C:\lab\az400\dotnet\agent\bin'
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Root': 'C:\lab\az400\dotnet\agent'
+[2022-07-12 21:10:35Z INFO HostContext] Well known config file 'Service': 'C:\lab\az400\dotnet\agent\.service'
+[2022-07-12 21:10:35Z INFO ConfigurationStore] ServiceConfigFilePath: C:\lab\az400\dotnet\agent\.service
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Bin': 'C:\lab\az400\dotnet\agent\bin'
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Root': 'C:\lab\az400\dotnet\agent'
+[2022-07-12 21:10:35Z INFO HostContext] Well known config file 'Autologon': 'C:\lab\az400\dotnet\agent\.autologon'
+[2022-07-12 21:10:35Z INFO ConfigurationStore] AutoLogonSettingsFilePath: C:\lab\az400\dotnet\agent\.autologon
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Bin': 'C:\lab\az400\dotnet\agent\bin'
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Root': 'C:\lab\az400\dotnet\agent'
+[2022-07-12 21:10:35Z INFO HostContext] Well known config file 'Options': 'C:\lab\az400\dotnet\agent\.options'
+[2022-07-12 21:10:35Z INFO ConfigurationStore] RuntimeOptionsFilePath: C:\lab\az400\dotnet\agent\.options
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Bin': 'C:\lab\az400\dotnet\agent\bin'
+[2022-07-12 21:10:35Z INFO HostContext] Well known directory 'Root': 'C:\lab\az400\dotnet\agent'
+[2022-07-12 21:10:35Z INFO HostContext] Well known config file 'SetupInfo': 'C:\lab\az400\dotnet\agent\.setup_info'
+[2022-07-12 21:10:35Z INFO ConfigurationStore] SetupInfoFilePath: C:\lab\az400\dotnet\agent\.setup_info
+[2022-07-12 21:10:35Z INFO ConfigurationStore] IsServiceConfigured()
+[2022-07-12 21:10:35Z INFO ConfigurationStore] IsServiceConfigured: False
+[2022-07-12 21:10:35Z INFO ConfigurationStore] IsAutoLogonConfigured: False
+[2022-07-12 21:10:35Z INFO ConfigurationManager] AutoLogon was not configured on the agent.
+[2022-07-12 21:10:35Z INFO Terminal] WRITE LINE: Removing agent from the server
+[2022-07-12 21:10:35Z INFO ConfigurationStore] IsConfigured()
+[2022-07-12 21:10:35Z INFO ConfigurationStore] IsConfigured: True
+[2022-07-12 21:10:35Z INFO ConfigurationStore] HasCredentials()
+[2022-07-12 21:10:35Z INFO ConfigurationStore] stored True
+[2022-07-12 21:10:35Z INFO ConfigurationStore] Read setting file: 204 chars
+[2022-07-12 21:10:35Z INFO ConfigurationManager] GetCredentialProvider
+[2022-07-12 21:10:35Z INFO CommandSettings] Arg 'auth': ''
+[2022-07-12 21:10:35Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-07-12 21:10:35Z INFO PromptManager] ReadValue
+[2022-07-12 21:10:35Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2022-07-12 21:10:35Z INFO Terminal] READ LINE
+[2022-07-12 21:10:39Z INFO Terminal] Read value: ''
+[2022-07-12 21:10:39Z INFO PromptManager] Falling back to the default: 'PAT'
+[2022-07-12 21:10:39Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2022-07-12 21:10:39Z INFO CredentialManager] GetCredentialProvider
+[2022-07-12 21:10:39Z INFO CredentialManager] Creating type PAT
+[2022-07-12 21:10:39Z INFO CredentialManager] Creating credential type: PAT
+[2022-07-12 21:10:39Z INFO PersonalAccessToken] EnsureCredential
+[2022-07-12 21:10:39Z INFO CommandSettings] Arg 'token': ''
+[2022-07-12 21:10:39Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-07-12 21:10:39Z INFO PromptManager] ReadValue
+[2022-07-12 21:10:39Z INFO Terminal] WRITE: Enter personal access token > 
+[2022-07-12 21:10:39Z INFO Terminal] READ SECRET
+[2022-07-12 21:10:50Z INFO HostContext] Setting up value for origin: Terminal.ReadSecret
+[2022-07-12 21:10:50Z INFO Terminal] Read value: '***'
+[2022-07-12 21:10:50Z INFO PersonalAccessToken] GetVssCredentials
+[2022-07-12 21:10:50Z INFO PersonalAccessToken] token retrieved: 52 chars
+[2022-07-12 21:10:50Z INFO PersonalAccessToken] cred created
+[2022-07-12 21:10:50Z INFO ConfigurationManager] cred retrieved
+[2022-07-12 21:10:50Z INFO ConfigurationManager] Agent configured for deploymentGroup : False
+[2022-07-12 21:10:50Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Listener.Configuration.IConfigurationProvider'
+[2022-07-12 21:10:50Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider, Agent.Listener
+[2022-07-12 21:10:50Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.DeploymentGroupAgentConfigProvider, Agent.Listener
+[2022-07-12 21:10:50Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.SharedDeploymentAgentConfigProvider, Agent.Listener
+[2022-07-12 21:10:50Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.EnvironmentVMResourceConfigProvider, Agent.Listener
+[2022-07-12 21:10:50Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-07-12 21:10:51Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-07-12 21:10:51Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-07-12 21:10:51Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-07-12 21:10:51Z INFO Terminal] WRITE LINE: Connecting to server ...
+[2022-07-12 21:10:51Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2022-07-12 21:10:51Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-07-12 21:10:52Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-07-12 21:10:52Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2022-07-12 21:10:52Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-07-12 21:10:52Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2022-07-12 21:10:52Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2022-07-12 21:10:52Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-07-12 21:10:52Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2022-07-12 21:10:53Z INFO Terminal] WRITE LINE: Succeeded: Removing agent from the server
+[2022-07-12 21:10:53Z INFO Terminal] WRITE LINE: Removing .credentials
+[2022-07-12 21:10:53Z INFO HostContext] Well known directory 'Bin': 'C:\lab\az400\dotnet\agent\bin'
+[2022-07-12 21:10:53Z INFO HostContext] Well known directory 'Root': 'C:\lab\az400\dotnet\agent'
+[2022-07-12 21:10:53Z INFO HostContext] Well known config file 'RSACredentials': 'C:\lab\az400\dotnet\agent\.credentials_rsaparams'
+[2022-07-12 21:10:53Z INFO RSAEncryptedFileKeyManager] Deleting RSA key parameters file C:\lab\az400\dotnet\agent\.credentials_rsaparams
+[2022-07-12 21:10:53Z INFO Terminal] WRITE LINE: Succeeded: Removing .credentials
+[2022-07-12 21:10:53Z INFO Terminal] WRITE LINE: Removing .agent
+[2022-07-12 21:10:53Z INFO HostContext] Well known directory 'Bin': 'C:\lab\az400\dotnet\agent\bin'
+[2022-07-12 21:10:53Z INFO HostContext] Well known directory 'Root': 'C:\lab\az400\dotnet\agent'
+[2022-07-12 21:10:53Z INFO HostContext] Well known config file 'ProxyCredentials': 'C:\lab\az400\dotnet\agent\.proxycredentials'
+[2022-07-12 21:10:53Z INFO HostContext] Well known directory 'Bin': 'C:\lab\az400\dotnet\agent\bin'
+[2022-07-12 21:10:53Z INFO HostContext] Well known directory 'Root': 'C:\lab\az400\dotnet\agent'
+[2022-07-12 21:10:53Z INFO HostContext] Well known config file 'ProxyBypass': 'C:\lab\az400\dotnet\agent\.proxybypass'
+[2022-07-12 21:10:53Z INFO HostContext] Well known directory 'Bin': 'C:\lab\az400\dotnet\agent\bin'
+[2022-07-12 21:10:53Z INFO HostContext] Well known directory 'Root': 'C:\lab\az400\dotnet\agent'
+[2022-07-12 21:10:53Z INFO HostContext] Well known config file 'Proxy': 'C:\lab\az400\dotnet\agent\.proxy'
+[2022-07-12 21:10:53Z INFO VstsAgentWebProxy] Delete .proxy file: C:\lab\az400\dotnet\agent\.proxy
+[2022-07-12 21:10:53Z INFO HostContext] Well known directory 'Bin': 'C:\lab\az400\dotnet\agent\bin'
+[2022-07-12 21:10:53Z INFO HostContext] Well known directory 'Root': 'C:\lab\az400\dotnet\agent'
+[2022-07-12 21:10:53Z INFO HostContext] Well known config file 'Certificates': 'C:\lab\az400\dotnet\agent\.certificates'
+[2022-07-12 21:10:53Z INFO Terminal] WRITE LINE: Succeeded: Removing .agent
