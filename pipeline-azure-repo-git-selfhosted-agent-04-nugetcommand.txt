@@ -1,0 +1,260 @@
+2022-07-30T23:12:05.7569384Z ##[section]Starting: NuGetCommand
+2022-07-30T23:12:05.7777291Z ==============================================================================
+2022-07-30T23:12:05.7777539Z Task         : NuGet
+2022-07-30T23:12:05.7777987Z Description  : Restore, pack, or push NuGet packages, or run a NuGet command. Supports NuGet.org and authenticated feeds like Azure Artifacts and MyGet. Uses NuGet.exe and works with .NET Framework apps. For .NET Core and .NET Standard apps, use the .NET Core task.
+2022-07-30T23:12:05.7778463Z Version      : 2.206.0
+2022-07-30T23:12:05.7778615Z Author       : Microsoft Corporation
+2022-07-30T23:12:05.7778958Z Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/package/nuget
+2022-07-30T23:12:05.7779227Z ==============================================================================
+2022-07-30T23:12:06.5199252Z SYSTEMVSSCONNECTION exists true
+2022-07-30T23:12:06.8979625Z SYSTEMVSSCONNECTION exists true
+2022-07-30T23:12:07.3292898Z [command]C:\Windows\system32\chcp.com 65001
+2022-07-30T23:12:07.3426849Z Active code page: 65001
+2022-07-30T23:12:07.4489334Z Detected NuGet version 4.0.0.2283 / 4.0.0
+2022-07-30T23:12:07.4500067Z SYSTEMVSSCONNECTION exists true
+2022-07-30T23:12:07.4548584Z [command]C:\agent\_work\_tool\NuGet\4.0.0\x64\nuget.exe sources Add -NonInteractive -Name NuGetOrg -Source https://api.nuget.org/v3/index.json -ConfigFile C:\agent\_work\1\Nuget\tempNuGet_15.config
+2022-07-30T23:12:08.1687380Z Package Source with Name: NuGetOrg added successfully.
+2022-07-30T23:12:08.1779016Z [command]C:\agent\_work\_tool\NuGet\4.0.0\x64\nuget.exe restore C:\agent\_work\1\s\PartsUnlimited-aspnet45\PartsUnlimited.sln -Verbosity Detailed -NonInteractive -ConfigFile C:\agent\_work\1\Nuget\tempNuGet_15.config
+2022-07-30T23:12:12.5781433Z NuGet Version: 4.0.0.2283
+2022-07-30T23:12:12.5782597Z MSBuild auto-detection: using msbuild version '16.8.2.56705' from 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\bin'. Use option -MSBuildVersion to force nuget to use a specific version of MSBuild.
+2022-07-30T23:12:12.5783305Z MSBuild P2P timeout [ms]: 120000
+2022-07-30T23:12:12.5785177Z C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\bin\msbuild.exe /t:GenerateRestoreGraphFile /nologo /nr:false /p:RestoreUseCustomAfterTargets=true /p:BuildProjectReferences=false /v:q  /p:NuGetRestoreTargets="C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Temp\NuGet-Scratch\4u0ipvzc.zmt.targets" /p:RestoreTaskAssemblyFile="C:\agent\_work\_tool\NuGet\4.0.0\x64\nuget.exe" /p:RestoreGraphOutputPath="C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Temp\NuGet-Scratch\fqscmsbe.npw.result" /p:ExcludeRestorePackageImports=true  /p:RestoreRecursive=False  /p:RestoreProjectFilterMode=exclusionlist /p:RestoreContinueOnError=WarnAndContinue  /p:RestoreGraphProjectInput="C:\agent\_work\1\s\PartsUnlimited-aspnet45\src\PartsUnlimitedWebsite\PartsUnlimitedWebsite.csproj;C:\agent\_work\1\s\PartsUnlimited-aspnet45\test\PartsUnlimited.UnitTests\PartsUnlimited.UnitTests.csproj;C:\agent\_work\1\s\PartsUnlimited-aspnet45\test\FabrikamFiber.SeleniumTests\FabrikamFiber.SeleniumTests.csproj;" "C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Temp\NuGet-Scratch\4u0ipvzc.zmt.targets"
+2022-07-30T23:12:12.5788266Z Restoring NuGet package Antlr.3.5.0.2.
+2022-07-30T23:12:12.5788621Z Restoring NuGet package EntityFramework.6.1.3.
+2022-07-30T23:12:12.5789137Z Restoring NuGet package bootstrap.3.3.7.
+2022-07-30T23:12:12.5789417Z Restoring NuGet package CommonServiceLocator.1.3.0.
+2022-07-30T23:12:12.5789946Z Adding package 'Antlr.3.5.0.2' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5790346Z Adding package 'bootstrap.3.3.7' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5790769Z Adding package 'EntityFramework.6.1.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5791187Z Adding package 'CommonServiceLocator.1.3.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5792516Z Added package 'Antlr.3.5.0.2' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5793002Z Added package 'Antlr.3.5.0.2' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5793427Z Restoring NuGet package jQuery.3.1.1.
+2022-07-30T23:12:12.5793759Z Added package 'CommonServiceLocator.1.3.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5794296Z Added package 'CommonServiceLocator.1.3.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5795217Z Adding package 'jQuery.3.1.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5795575Z Restoring NuGet package jQuery.UI.Combined.1.12.1.
+2022-07-30T23:12:12.5795926Z Adding package 'jQuery.UI.Combined.1.12.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5796338Z Added package 'bootstrap.3.3.7' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5797282Z Added package 'bootstrap.3.3.7' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5798254Z Restoring NuGet package jQuery.Validation.1.16.0.
+2022-07-30T23:12:12.5799012Z Adding package 'jQuery.Validation.1.16.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5801226Z Added package 'jQuery.Validation.1.16.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5802170Z Added package 'jQuery.Validation.1.16.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5806671Z Restoring NuGet package Microsoft.ApplicationInsights.2.2.0.
+2022-07-30T23:12:12.5807242Z Adding package 'Microsoft.ApplicationInsights.2.2.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5817914Z Added package 'jQuery.3.1.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5823250Z Added package 'jQuery.3.1.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5823978Z Restoring NuGet package Microsoft.ApplicationInsights.Agent.Intercept.2.0.7.
+2022-07-30T23:12:12.5824609Z Adding package 'Microsoft.ApplicationInsights.Agent.Intercept.2.0.7' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5825548Z Added package 'jQuery.UI.Combined.1.12.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5826572Z Added package 'jQuery.UI.Combined.1.12.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5827558Z Restoring NuGet package Microsoft.ApplicationInsights.DependencyCollector.2.2.0.
+2022-07-30T23:12:12.5828216Z Adding package 'Microsoft.ApplicationInsights.DependencyCollector.2.2.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5829174Z Added package 'Microsoft.ApplicationInsights.DependencyCollector.2.2.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5830091Z Added package 'Microsoft.ApplicationInsights.DependencyCollector.2.2.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5830899Z Restoring NuGet package Microsoft.ApplicationInsights.JavaScript.0.15.0-build58334.
+2022-07-30T23:12:12.5831957Z Adding package 'Microsoft.ApplicationInsights.JavaScript.0.15.0-build58334' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5833639Z Added package 'Microsoft.ApplicationInsights.2.2.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5834487Z Added package 'Microsoft.ApplicationInsights.2.2.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5835265Z Restoring NuGet package Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0.
+2022-07-30T23:12:12.5838830Z Adding package 'Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5839718Z Added package 'Microsoft.ApplicationInsights.JavaScript.0.15.0-build58334' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5840642Z Added package 'Microsoft.ApplicationInsights.JavaScript.0.15.0-build58334' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5841433Z Restoring NuGet package Microsoft.ApplicationInsights.Web.2.2.0.
+2022-07-30T23:12:12.5842015Z Adding package 'Microsoft.ApplicationInsights.Web.2.2.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5842763Z Added package 'Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5843668Z Added package 'Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5844460Z Restoring NuGet package Microsoft.ApplicationInsights.WindowsServer.2.2.0.
+2022-07-30T23:12:12.5845084Z Adding package 'Microsoft.ApplicationInsights.WindowsServer.2.2.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5845832Z Added package 'Microsoft.ApplicationInsights.WindowsServer.2.2.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5846711Z Added package 'Microsoft.ApplicationInsights.WindowsServer.2.2.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5847967Z Restoring NuGet package Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0.
+2022-07-30T23:12:12.5848671Z Adding package 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5849436Z Added package 'Microsoft.ApplicationInsights.Web.2.2.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5850349Z Added package 'Microsoft.ApplicationInsights.Web.2.2.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5851090Z Restoring NuGet package Microsoft.AspNet.Identity.Core.2.2.1.
+2022-07-30T23:12:12.5851719Z Adding package 'Microsoft.AspNet.Identity.Core.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5852451Z Added package 'Microsoft.ApplicationInsights.Agent.Intercept.2.0.7' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5853379Z Added package 'Microsoft.ApplicationInsights.Agent.Intercept.2.0.7' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5855224Z Restoring NuGet package Microsoft.AspNet.Identity.EntityFramework.2.2.1.
+2022-07-30T23:12:12.5855810Z Adding package 'Microsoft.AspNet.Identity.EntityFramework.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5856328Z Added package 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5857201Z Added package 'Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5857814Z Restoring NuGet package Microsoft.AspNet.Identity.Owin.2.2.1.
+2022-07-30T23:12:12.5858255Z Adding package 'Microsoft.AspNet.Identity.Owin.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5858710Z Added package 'Microsoft.AspNet.Identity.Core.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5859312Z Added package 'Microsoft.AspNet.Identity.Core.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5859771Z Restoring NuGet package Microsoft.AspNet.Mvc.5.2.3.
+2022-07-30T23:12:12.5860178Z Adding package 'Microsoft.AspNet.Mvc.5.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5860654Z Added package 'Microsoft.AspNet.Identity.EntityFramework.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5861240Z Added package 'Microsoft.AspNet.Identity.EntityFramework.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5861767Z Restoring NuGet package Microsoft.AspNet.Razor.3.2.3.
+2022-07-30T23:12:12.5862126Z Adding package 'Microsoft.AspNet.Razor.3.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5862615Z Added package 'Microsoft.AspNet.Identity.Owin.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5863169Z Added package 'Microsoft.AspNet.Identity.Owin.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5863688Z Restoring NuGet package Microsoft.AspNet.SignalR.2.2.1.
+2022-07-30T23:12:12.5864052Z Adding package 'Microsoft.AspNet.SignalR.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5865047Z Added package 'Microsoft.AspNet.Razor.3.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5866658Z Added package 'Microsoft.AspNet.Razor.3.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5867207Z Restoring NuGet package Microsoft.AspNet.SignalR.Core.2.2.1.
+2022-07-30T23:12:12.5867667Z Added package 'Microsoft.AspNet.SignalR.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5874129Z Added package 'Microsoft.AspNet.SignalR.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5874802Z Adding package 'Microsoft.AspNet.SignalR.Core.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5875180Z Restoring NuGet package Microsoft.AspNet.SignalR.JS.2.2.1.
+2022-07-30T23:12:12.5875655Z Adding package 'Microsoft.AspNet.SignalR.JS.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5876090Z Added package 'Microsoft.AspNet.Mvc.5.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5876903Z Added package 'Microsoft.AspNet.Mvc.5.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5877575Z Restoring NuGet package Microsoft.AspNet.SignalR.Owin.1.2.2.
+2022-07-30T23:12:12.5878037Z Adding package 'Microsoft.AspNet.SignalR.Owin.1.2.2' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5878652Z Added package 'Microsoft.AspNet.SignalR.JS.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5879286Z Added package 'Microsoft.AspNet.SignalR.JS.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5879772Z Restoring NuGet package Microsoft.AspNet.SignalR.SystemWeb.2.2.1.
+2022-07-30T23:12:12.5880215Z Adding package 'Microsoft.AspNet.SignalR.SystemWeb.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5880672Z Added package 'Microsoft.AspNet.SignalR.Core.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5881296Z Added package 'Microsoft.AspNet.SignalR.Core.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5881778Z Restoring NuGet package Microsoft.AspNet.Web.Optimization.1.1.3.
+2022-07-30T23:12:12.5882250Z Added package 'Microsoft.AspNet.SignalR.Owin.1.2.2' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5882803Z Added package 'Microsoft.AspNet.SignalR.Owin.1.2.2' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5883413Z Adding package 'Microsoft.AspNet.Web.Optimization.1.1.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5883785Z Restoring NuGet package Microsoft.AspNet.WebApi.5.2.3.
+2022-07-30T23:12:12.5884191Z Adding package 'Microsoft.AspNet.WebApi.5.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5884624Z Added package 'Microsoft.AspNet.WebApi.5.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5885498Z Added package 'Microsoft.AspNet.WebApi.5.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5886176Z Restoring NuGet package Microsoft.AspNet.WebApi.Client.5.2.3.
+2022-07-30T23:12:12.5886559Z Adding package 'Microsoft.AspNet.WebApi.Client.5.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5887223Z Added package 'Microsoft.AspNet.SignalR.SystemWeb.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5887880Z Added package 'Microsoft.AspNet.SignalR.SystemWeb.2.2.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5888448Z Restoring NuGet package Microsoft.AspNet.WebApi.Core.5.2.3.
+2022-07-30T23:12:12.5888831Z Added package 'Microsoft.AspNet.Web.Optimization.1.1.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5889445Z Added package 'Microsoft.AspNet.Web.Optimization.1.1.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5890002Z Adding package 'Microsoft.AspNet.WebApi.Core.5.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5890429Z Restoring NuGet package Microsoft.AspNet.WebApi.WebHost.5.2.3.
+2022-07-30T23:12:12.5890813Z Adding package 'Microsoft.AspNet.WebApi.WebHost.5.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5891322Z Added package 'Microsoft.AspNet.WebApi.WebHost.5.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5891879Z Added package 'Microsoft.AspNet.WebApi.WebHost.5.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5892393Z Restoring NuGet package Microsoft.AspNet.WebPages.3.2.3.
+2022-07-30T23:12:12.5893234Z Adding package 'Microsoft.AspNet.WebPages.3.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5893677Z Added package 'Microsoft.AspNet.WebApi.Core.5.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5894278Z Added package 'Microsoft.AspNet.WebApi.Core.5.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5894768Z Restoring NuGet package Microsoft.DependencyValidation.Analyzers.0.9.0.
+2022-07-30T23:12:12.5895211Z Added package 'Microsoft.AspNet.WebApi.Client.5.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5895763Z Added package 'Microsoft.AspNet.WebApi.Client.5.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5896378Z Adding package 'Microsoft.DependencyValidation.Analyzers.0.9.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5896785Z Restoring NuGet package Microsoft.jQuery.Unobtrusive.Validation.3.2.3.
+2022-07-30T23:12:12.5897264Z Adding package 'Microsoft.jQuery.Unobtrusive.Validation.3.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5897796Z Added package 'EntityFramework.6.1.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5898360Z Added package 'EntityFramework.6.1.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5898788Z Restoring NuGet package Microsoft.Owin.3.0.1.
+2022-07-30T23:12:12.5899203Z Added package 'Microsoft.jQuery.Unobtrusive.Validation.3.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5899780Z Added package 'Microsoft.jQuery.Unobtrusive.Validation.3.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5900389Z Added package 'Microsoft.AspNet.WebPages.3.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5900929Z Added package 'Microsoft.AspNet.WebPages.3.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5901480Z Restoring NuGet package Microsoft.Owin.Host.SystemWeb.3.0.1.
+2022-07-30T23:12:12.5901889Z Adding package 'Microsoft.Owin.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5902233Z Restoring NuGet package Microsoft.Owin.Security.3.0.1.
+2022-07-30T23:12:12.5902649Z Adding package 'Microsoft.Owin.Host.SystemWeb.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5903094Z Adding package 'Microsoft.Owin.Security.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5903581Z Added package 'Microsoft.Owin.Security.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5904115Z Added package 'Microsoft.Owin.Security.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5904684Z Added package 'Microsoft.Owin.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5905110Z Added package 'Microsoft.Owin.Host.SystemWeb.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5905716Z Added package 'Microsoft.Owin.Host.SystemWeb.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5906340Z Added package 'Microsoft.Owin.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5907153Z Restoring NuGet package Microsoft.Owin.Security.Cookies.3.0.1.
+2022-07-30T23:12:12.5907544Z Restoring NuGet package Microsoft.Owin.Security.Facebook.3.0.1.
+2022-07-30T23:12:12.5907853Z Restoring NuGet package Microsoft.Owin.Security.Google.3.0.1.
+2022-07-30T23:12:12.5908289Z Adding package 'Microsoft.Owin.Security.Cookies.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5908749Z Adding package 'Microsoft.Owin.Security.Facebook.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5909258Z Adding package 'Microsoft.Owin.Security.Google.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5909714Z Added package 'Microsoft.Owin.Security.Facebook.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5910324Z Added package 'Microsoft.Owin.Security.Facebook.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5910880Z Added package 'Microsoft.Owin.Security.Cookies.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5911488Z Added package 'Microsoft.Owin.Security.Cookies.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5911977Z Restoring NuGet package Microsoft.Owin.Security.MicrosoftAccount.3.0.1.
+2022-07-30T23:12:12.5912347Z Restoring NuGet package Microsoft.Owin.Security.OAuth.3.0.1.
+2022-07-30T23:12:12.5912724Z Added package 'Microsoft.Owin.Security.Google.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5913277Z Added package 'Microsoft.Owin.Security.Google.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5913920Z Adding package 'Microsoft.Owin.Security.MicrosoftAccount.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5914313Z Restoring NuGet package Microsoft.Owin.Security.Twitter.3.0.1.
+2022-07-30T23:12:12.5914812Z Adding package 'Microsoft.Owin.Security.OAuth.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5915265Z Adding package 'Microsoft.Owin.Security.Twitter.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5915783Z Added package 'Microsoft.Owin.Security.MicrosoftAccount.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5916362Z Added package 'Microsoft.Owin.Security.MicrosoftAccount.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5916898Z Restoring NuGet package Microsoft.Web.Infrastructure.1.0.0.
+2022-07-30T23:12:12.5917271Z Adding package 'Microsoft.Web.Infrastructure.1.0.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5917846Z Added package 'Microsoft.Owin.Security.Twitter.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5918407Z Added package 'Microsoft.Owin.Security.Twitter.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5919006Z Added package 'Microsoft.Owin.Security.OAuth.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5919552Z Added package 'Microsoft.Owin.Security.OAuth.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5920041Z Restoring NuGet package Modernizr.2.8.3.
+2022-07-30T23:12:12.5920366Z Restoring NuGet package Newtonsoft.Json.9.0.1.
+2022-07-30T23:12:12.5920701Z Adding package 'Newtonsoft.Json.9.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5921149Z Adding package 'Modernizr.2.8.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5921571Z Added package 'Microsoft.Web.Infrastructure.1.0.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5922183Z Added package 'Microsoft.Web.Infrastructure.1.0.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5922611Z Restoring NuGet package Owin.1.0.0.
+2022-07-30T23:12:12.5922964Z Adding package 'Owin.1.0.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5923349Z Added package 'Modernizr.2.8.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5923892Z Added package 'Modernizr.2.8.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5924299Z Restoring NuGet package Respond.1.4.2.
+2022-07-30T23:12:12.5924613Z Adding package 'Respond.1.4.2' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5925044Z Added package 'Owin.1.0.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5925522Z Added package 'Owin.1.0.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5925965Z Restoring NuGet package Unity.4.0.1.
+2022-07-30T23:12:12.5926272Z Adding package 'Unity.4.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5926701Z Added package 'Respond.1.4.2' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5927191Z Added package 'Respond.1.4.2' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5927720Z Restoring NuGet package Unity.Mvc4.1.6.0.
+2022-07-30T23:12:12.5928045Z Adding package 'Unity.Mvc4.1.6.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5928852Z Added package 'Microsoft.DependencyValidation.Analyzers.0.9.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5929439Z Added package 'Microsoft.DependencyValidation.Analyzers.0.9.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5929966Z Restoring NuGet package Unity.WebAPI.5.2.3.
+2022-07-30T23:12:12.5930297Z Adding package 'Unity.WebAPI.5.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5930695Z Added package 'Unity.Mvc4.1.6.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5931241Z Added package 'Unity.Mvc4.1.6.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5931656Z Restoring NuGet package WebGrease.1.6.0.
+2022-07-30T23:12:12.5932027Z Adding package 'WebGrease.1.6.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5932424Z Added package 'Unity.WebAPI.5.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5932973Z Added package 'Unity.WebAPI.5.2.3' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5933394Z Restoring NuGet package Castle.Core.4.0.0.
+2022-07-30T23:12:12.5933764Z Adding package 'Castle.Core.4.0.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5934229Z Added package 'WebGrease.1.6.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5934718Z Added package 'WebGrease.1.6.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5935184Z Restoring NuGet package FakeDbSet.1.4.0.
+2022-07-30T23:12:12.5935503Z Adding package 'FakeDbSet.1.4.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5935944Z Added package 'FakeDbSet.1.4.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5936433Z Added package 'FakeDbSet.1.4.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5936883Z Restoring NuGet package Moq.4.5.30.
+2022-07-30T23:12:12.5937187Z Adding package 'Moq.4.5.30' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5937714Z Added package 'Moq.4.5.30' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5938198Z Added package 'Moq.4.5.30' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5938628Z Restoring NuGet package MSTest.TestAdapter.1.1.10-rc2.
+2022-07-30T23:12:12.5939046Z Adding package 'MSTest.TestAdapter.1.1.10-rc2' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5939452Z Added package 'Unity.4.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5939978Z Added package 'Unity.4.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5940405Z Restoring NuGet package MSTest.TestFramework.1.0.8-rc2.
+2022-07-30T23:12:12.5940816Z Adding package 'MSTest.TestFramework.1.0.8-rc2' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5941244Z Added package 'Newtonsoft.Json.9.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5941799Z Added package 'Newtonsoft.Json.9.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5942305Z Restoring NuGet package Selenium.WebDriver.3.0.1.
+2022-07-30T23:12:12.5942705Z Adding package 'Selenium.WebDriver.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5943113Z Added package 'Castle.Core.4.0.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5943685Z Added package 'Castle.Core.4.0.0' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5944446Z Added package 'Selenium.WebDriver.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5945121Z Added package 'Selenium.WebDriver.3.0.1' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5945647Z Added package 'MSTest.TestAdapter.1.1.10-rc2' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5946274Z Added package 'MSTest.TestAdapter.1.1.10-rc2' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5946809Z Added package 'MSTest.TestFramework.1.0.8-rc2' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages'
+2022-07-30T23:12:12.5947576Z Added package 'MSTest.TestFramework.1.0.8-rc2' to folder 'C:\agent\_work\1\s\PartsUnlimited-aspnet45\packages' from source 'C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\'
+2022-07-30T23:12:12.5947893Z 
+2022-07-30T23:12:12.5948181Z NuGet Config files used:
+2022-07-30T23:12:12.5948458Z     C:\agent\_work\1\Nuget\tempNuGet_15.config
+2022-07-30T23:12:12.5948580Z 
+2022-07-30T23:12:12.5948726Z Feeds used:
+2022-07-30T23:12:12.5949003Z     C:\Windows\ServiceProfiles\NetworkService\.nuget\packages\
+2022-07-30T23:12:12.5949264Z     https://api.nuget.org/v3/index.json
+2022-07-30T23:12:12.5949379Z 
+2022-07-30T23:12:12.5949570Z Installed:
+2022-07-30T23:12:12.5949773Z     57 package(s) to packages.config projects
+2022-07-30T23:12:12.5974927Z ##[section]Finishing: NuGetCommand

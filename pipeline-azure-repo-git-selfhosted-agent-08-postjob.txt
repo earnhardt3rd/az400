@@ -1,0 +1,10 @@
+2022-07-30T23:12:31.7984479Z ##[section]Starting: Checkout PartsUnlimited@master to s
+2022-07-30T23:12:31.8203375Z ==============================================================================
+2022-07-30T23:12:31.8203736Z Task         : Get sources
+2022-07-30T23:12:31.8204113Z Description  : Get sources from a repository. Supports Git, TfsVC, and SVN repositories.
+2022-07-30T23:12:31.8204453Z Version      : 1.0.0
+2022-07-30T23:12:31.8204663Z Author       : Microsoft
+2022-07-30T23:12:31.8205206Z Help         : [More Information](https://go.microsoft.com/fwlink/?LinkId=798199)
+2022-07-30T23:12:31.8205641Z ==============================================================================
+2022-07-30T23:12:32.2258252Z Cleaning any cached credential from repository: PartsUnlimited (Git)
+2022-07-30T23:12:32.2361560Z ##[section]Finishing: Checkout PartsUnlimited@master to s

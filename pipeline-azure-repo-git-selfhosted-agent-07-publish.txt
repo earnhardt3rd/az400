@@ -1,0 +1,15 @@
+2022-07-30T23:12:28.8784650Z ##[section]Starting: Publish Artifact
+2022-07-30T23:12:28.8939532Z ==============================================================================
+2022-07-30T23:12:28.8939864Z Task         : Publish build artifacts
+2022-07-30T23:12:28.8940171Z Description  : Publish build artifacts to Azure Pipelines or a Windows file share
+2022-07-30T23:12:28.8940464Z Version      : 1.200.0
+2022-07-30T23:12:28.8940667Z Author       : Microsoft Corporation
+2022-07-30T23:12:28.8941171Z Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/publish-build-artifacts
+2022-07-30T23:12:28.8941589Z ==============================================================================
+2022-07-30T23:12:29.1965510Z ##[section]Async Command Start: Upload Artifact
+2022-07-30T23:12:29.1965724Z Uploading 19 files
+2022-07-30T23:12:31.7706000Z File upload succeed.
+2022-07-30T23:12:31.7706811Z Upload 'C:\agent\_work\1\a' to file container: '#/27929393/drop'
+2022-07-30T23:12:31.7936230Z Associated artifact 4 with build 15
+2022-07-30T23:12:31.7937216Z ##[section]Async Command End: Upload Artifact
+2022-07-30T23:12:31.7940364Z ##[section]Finishing: Publish Artifact

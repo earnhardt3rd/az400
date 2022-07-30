@@ -1,0 +1,38 @@
+2022-07-30T23:12:00.6204488Z ##[section]Starting: Checkout PartsUnlimited@master to s
+2022-07-30T23:12:00.6840123Z ==============================================================================
+2022-07-30T23:12:00.6840625Z Task         : Get sources
+2022-07-30T23:12:00.6841129Z Description  : Get sources from a repository. Supports Git, TfsVC, and SVN repositories.
+2022-07-30T23:12:00.6841331Z Version      : 1.0.0
+2022-07-30T23:12:00.6841566Z Author       : Microsoft
+2022-07-30T23:12:00.6841936Z Help         : [More Information](https://go.microsoft.com/fwlink/?LinkId=798199)
+2022-07-30T23:12:00.6842189Z ==============================================================================
+2022-07-30T23:12:01.1579701Z Syncing repository: PartsUnlimited (Git)
+2022-07-30T23:12:01.1584580Z Prepending Path environment variable with directory containing 'git.exe'.
+2022-07-30T23:12:01.1593537Z ##[command]git version
+2022-07-30T23:12:01.2471852Z git version 2.36.1.windows.1
+2022-07-30T23:12:01.2488429Z ##[command]git lfs version
+2022-07-30T23:12:01.3872361Z git-lfs/2.13.3 (GitHub; windows amd64; go 1.16.2; git a5e65851)
+2022-07-30T23:12:01.3916602Z ##[command]git config --get remote.origin.url
+2022-07-30T23:12:01.4475691Z ##[command]git clean -ffdx
+2022-07-30T23:12:01.7807587Z Removing PartsUnlimited-aspnet45/packages/
+2022-07-30T23:12:01.7808827Z Removing PartsUnlimited-aspnet45/src/PartsUnlimitedWebsite/bin/
+2022-07-30T23:12:01.7809507Z Removing PartsUnlimited-aspnet45/src/PartsUnlimitedWebsite/obj/
+2022-07-30T23:12:01.7810043Z Removing PartsUnlimited-aspnet45/test/FabrikamFiber.SeleniumTests/bin/
+2022-07-30T23:12:01.7810462Z Removing PartsUnlimited-aspnet45/test/FabrikamFiber.SeleniumTests/obj/
+2022-07-30T23:12:01.7810809Z Removing PartsUnlimited-aspnet45/test/PartsUnlimited.UnitTests/bin/
+2022-07-30T23:12:01.7811198Z Removing PartsUnlimited-aspnet45/test/PartsUnlimited.UnitTests/obj/
+2022-07-30T23:12:01.7848800Z ##[command]git reset --hard HEAD
+2022-07-30T23:12:04.0511016Z HEAD is now at 58d53f6 Update azure-pipelines.yml for Azure Pipelines
+2022-07-30T23:12:04.0620481Z ##[command]git config gc.auto 0
+2022-07-30T23:12:04.1222905Z ##[command]git config --get-all http.https://az400-earnhardt@dev.azure.com/az400-earnhardt/Configuring%AZP2520Agent%AZP2520Pools%AZP2520and%AZP2520Understanding%AZP2520Pipeline%AZP2520Styles/_git/PartsUnlimited.extraheader
+2022-07-30T23:12:04.1783977Z ##[command]git config --get-all http.extraheader
+2022-07-30T23:12:04.2358520Z ##[command]git config --get-regexp .*extraheader
+2022-07-30T23:12:04.2766486Z ##[command]git config --get-all http.proxy
+2022-07-30T23:12:04.3190020Z ##[command]git config http.version HTTP/1.1
+2022-07-30T23:12:04.3770895Z ##[command]git -c http.extraheader="AUTHORIZATION: bearer ***" fetch --force --tags --prune --prune-tags --progress --no-recurse-submodules origin
+2022-07-30T23:12:04.8569667Z ##[command]git -c http.extraheader="AUTHORIZATION: bearer ***" fetch --force --tags --prune --prune-tags --progress --no-recurse-submodules origin  +58d53f6ce28514b766d4e11b6c222e21f67f900a
+2022-07-30T23:12:05.1902433Z From https://dev.azure.com/az400-earnhardt/Configuring%20Agent%20Pools%20and%20Understanding%20Pipeline%20Styles/_git/PartsUnlimited
+2022-07-30T23:12:05.1903951Z  * branch            58d53f6ce28514b766d4e11b6c222e21f67f900a -> FETCH_HEAD
+2022-07-30T23:12:05.2721712Z ##[command]git checkout --progress --force 58d53f6ce28514b766d4e11b6c222e21f67f900a
+2022-07-30T23:12:05.2812947Z HEAD is now at 58d53f6 Update azure-pipelines.yml for Azure Pipelines
+2022-07-30T23:12:05.3002519Z ##[section]Finishing: Checkout PartsUnlimited@master to s

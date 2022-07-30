@@ -1,0 +1,24 @@
+2022-07-30T23:12:28.1282197Z ##[section]Starting: Copy Files
+2022-07-30T23:12:28.1479213Z ==============================================================================
+2022-07-30T23:12:28.1479471Z Task         : Copy files
+2022-07-30T23:12:28.1479733Z Description  : Copy files from a source folder to a target folder using patterns matching file paths (not folder paths)
+2022-07-30T23:12:28.1479980Z Version      : 2.200.0
+2022-07-30T23:12:28.1480145Z Author       : Microsoft Corporation
+2022-07-30T23:12:28.1480486Z Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/copy-files
+2022-07-30T23:12:28.1480763Z ==============================================================================
+2022-07-30T23:12:28.8172111Z found 14 files
+2022-07-30T23:12:28.8267660Z Copying C:\agent\_work\1\s\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\AppInsights.json to C:\agent\_work\1\a\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\AppInsights.json
+2022-07-30T23:12:28.8394133Z Copying C:\agent\_work\1\s\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\CodedUI-DevTestLab.json to C:\agent\_work\1\a\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\CodedUI-DevTestLab.json
+2022-07-30T23:12:28.8408458Z Copying C:\agent\_work\1\s\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\DemoEnvironmentSetup.json to C:\agent\_work\1\a\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\DemoEnvironmentSetup.json
+2022-07-30T23:12:28.8430909Z Copying C:\agent\_work\1\s\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\DemoEnvironmentSetup.param.json to C:\agent\_work\1\a\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\DemoEnvironmentSetup.param.json
+2022-07-30T23:12:28.8446607Z Copying C:\agent\_work\1\s\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\FullEnvironmentSetup.json to C:\agent\_work\1\a\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\FullEnvironmentSetup.json
+2022-07-30T23:12:28.8479435Z Copying C:\agent\_work\1\s\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\FullEnvironmentSetup.param.json to C:\agent\_work\1\a\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\FullEnvironmentSetup.param.json
+2022-07-30T23:12:28.8483762Z Copying C:\agent\_work\1\s\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\FullEnvironmentSetupMerged.json to C:\agent\_work\1\a\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\FullEnvironmentSetupMerged.json
+2022-07-30T23:12:28.8500466Z Copying C:\agent\_work\1\s\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\FullEnvironmentSetupMerged.param.json to C:\agent\_work\1\a\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\FullEnvironmentSetupMerged.param.json
+2022-07-30T23:12:28.8512968Z Copying C:\agent\_work\1\s\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\HostingPlanAndRules.json to C:\agent\_work\1\a\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\HostingPlanAndRules.json
+2022-07-30T23:12:28.8537375Z Copying C:\agent\_work\1\s\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\SqlServerAndDb.json to C:\agent\_work\1\a\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\SqlServerAndDb.json
+2022-07-30T23:12:28.8560019Z Copying C:\agent\_work\1\s\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\Website.json to C:\agent\_work\1\a\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\Website.json
+2022-07-30T23:12:28.8592157Z Copying C:\agent\_work\1\s\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\WebsiteRules.json to C:\agent\_work\1\a\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\WebsiteRules.json
+2022-07-30T23:12:28.8599813Z Copying C:\agent\_work\1\s\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\WebsiteWithTwoSlots.json to C:\agent\_work\1\a\PartsUnlimited-aspnet45\env\PartsUnlimitedEnv\Templates\WebsiteWithTwoSlots.json
+2022-07-30T23:12:28.8606222Z Copying C:\agent\_work\1\s\PartsUnlimited-aspnet45\src\PartsUnlimitedWebsite\Models\project.json to C:\agent\_work\1\a\PartsUnlimited-aspnet45\src\PartsUnlimitedWebsite\Models\project.json
+2022-07-30T23:12:28.8687904Z ##[section]Finishing: Copy Files

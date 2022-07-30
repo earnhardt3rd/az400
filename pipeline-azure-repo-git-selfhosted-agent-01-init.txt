@@ -1,0 +1,12 @@
+2022-07-30T23:12:00.4513305Z ##[section]Starting: Initialize job
+2022-07-30T23:12:00.4515124Z Agent name: 'az400m05-vm0'
+2022-07-30T23:12:00.4515658Z Agent machine name: 'SEA-DEV'
+2022-07-30T23:12:00.4515946Z Current agent version: '2.206.1'
+2022-07-30T23:12:00.4544815Z Agent running as: 'SEA-DEV$'
+2022-07-30T23:12:00.4602216Z Prepare build directory.
+2022-07-30T23:12:00.5085937Z Set build variables.
+2022-07-30T23:12:00.5110110Z Download all required tasks.
+2022-07-30T23:12:00.5269272Z Checking job knob settings.
+2022-07-30T23:12:00.5276831Z Finished checking job knob settings.
+2022-07-30T23:12:00.5752188Z Start tracking orphan processes.
+2022-07-30T23:12:00.5903439Z ##[section]Finishing: Initialize job

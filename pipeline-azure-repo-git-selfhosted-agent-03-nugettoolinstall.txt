@@ -1,0 +1,15 @@
+2022-07-30T23:12:05.3028231Z ##[section]Starting: NuGetToolInstaller
+2022-07-30T23:12:05.3157086Z ==============================================================================
+2022-07-30T23:12:05.3157380Z Task         : NuGet tool installer
+2022-07-30T23:12:05.3157733Z Description  : Acquires a specific version of NuGet from the internet or the tools cache and adds it to the PATH. Use this task to change the version of NuGet used in the NuGet tasks.
+2022-07-30T23:12:05.3158067Z Version      : 0.206.0
+2022-07-30T23:12:05.3158231Z Author       : Microsoft Corporation
+2022-07-30T23:12:05.3158497Z Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/package/prev-versions/nuget-installer-0
+2022-07-30T23:12:05.3158822Z ==============================================================================
+2022-07-30T23:12:05.6969378Z Found tool in cache: NuGet 4.0.0 x64
+2022-07-30T23:12:05.7016653Z Resolved from tool cache: 4.0.0
+2022-07-30T23:12:05.7016946Z Using version: 4.0.0
+2022-07-30T23:12:05.7018806Z Found tool in cache: NuGet 4.0.0 x64
+2022-07-30T23:12:05.7019297Z Using tool path: C:\agent\_work\_tool\NuGet\4.0.0\x64
+2022-07-30T23:12:05.7025906Z Prepending PATH environment variable with directory: C:\agent\_work\_tool\NuGet\4.0.0\x64
+2022-07-30T23:12:05.7547547Z ##[section]Finishing: NuGetToolInstaller
