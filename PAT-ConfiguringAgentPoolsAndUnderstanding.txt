@@ -1,3 +1,6 @@
+
+https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/key-pipelines-concepts?view=azure-devops
+
 Configuring Agent Pools and Understanding Pipeline Styles lab
 Personal access Token: ipu5kosvmy3ocoybl7sfdboma7qmdrwfoem3ae7opdmlas57jf6a
 
