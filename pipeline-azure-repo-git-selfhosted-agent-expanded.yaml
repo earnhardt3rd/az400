@@ -1,0 +1,29 @@
+trigger:
+  branches:
+    include:
+    - master
+stages:
+- stage: __default
+  jobs:
+  - job: Job
+    pool:
+      name: az400m05l05a-pool
+      demands:
+      - agent.name -equals az400m05-vm0
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '14.x'
+      displayName: 'Install Node.js'
+    - task: Npm@1
+      displayName: 'npm audit'
+      inputs:
+        command: custom
+        customCommand: 'audit fix --force --registry=https://registry.npmjs.org/'
+    - task: CmdLine@2
+      displayName: 'npm install, build, and test'
+      inputs:
+        script: |
+          npm install
+          npm run build
+
